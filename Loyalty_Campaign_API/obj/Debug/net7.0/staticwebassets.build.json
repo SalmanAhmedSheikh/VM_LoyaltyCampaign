@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "4TKQYAJQ+v9P1WMBoE/vDWcTeajVIlbzUPhaQXim/JY=",
+  "Source": "VM_LoyaltyCampaignAPI",
+  "BasePath": "_content/VM_LoyaltyCampaignAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
