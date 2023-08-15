@@ -31,3 +31,9 @@ D:\PersonalData\AhadZubairValidus\Projects\vm_ApiGatewaySolution\Loyalty_Campaig
 D:\PersonalData\AhadZubairValidus\Projects\vm_ApiGatewaySolution\Loyalty_Campaign_API\obj\Debug\net7.0\VM_loyaltyCampaignAPI.pdb
 D:\PersonalData\AhadZubairValidus\Projects\vm_ApiGatewaySolution\Loyalty_Campaign_API\obj\Debug\net7.0\VM_loyaltyCampaignAPI.genruntimeconfig.cache
 D:\PersonalData\AhadZubairValidus\Projects\vm_ApiGatewaySolution\Loyalty_Campaign_API\obj\Debug\net7.0\ref\VM_loyaltyCampaignAPI.dll
+D:\PersonalData\AhadZubairValidus\Projects\vm_ApiGatewaySolution\Loyalty_Campaign_API\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\PersonalData\AhadZubairValidus\Projects\vm_ApiGatewaySolution\Loyalty_Campaign_API\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\PersonalData\AhadZubairValidus\Projects\vm_ApiGatewaySolution\Loyalty_Campaign_API\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\PersonalData\AhadZubairValidus\Projects\vm_ApiGatewaySolution\Loyalty_Campaign_API\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\PersonalData\AhadZubairValidus\Projects\vm_ApiGatewaySolution\Loyalty_Campaign_API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\PersonalData\AhadZubairValidus\Projects\vm_ApiGatewaySolution\Loyalty_Campaign_API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

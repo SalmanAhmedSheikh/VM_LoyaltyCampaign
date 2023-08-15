@@ -35,3 +35,9 @@ D:\PersonalData\AhadZubairValidus\Projects\vm_ApiGatewaySolution\WebApplication1
 D:\PersonalData\AhadZubairValidus\Projects\vm_ApiGatewaySolution\WebApplication1\obj\Debug\net7.0\vm_ApiGateway.pdb
 D:\PersonalData\AhadZubairValidus\Projects\vm_ApiGatewaySolution\WebApplication1\obj\Debug\net7.0\vm_ApiGateway.genruntimeconfig.cache
 D:\PersonalData\AhadZubairValidus\Projects\vm_ApiGatewaySolution\WebApplication1\obj\Debug\net7.0\ref\vm_ApiGateway.dll
+D:\PersonalData\AhadZubairValidus\Projects\vm_ApiGatewaySolution\WebApplication1\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\PersonalData\AhadZubairValidus\Projects\vm_ApiGatewaySolution\WebApplication1\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\PersonalData\AhadZubairValidus\Projects\vm_ApiGatewaySolution\WebApplication1\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\PersonalData\AhadZubairValidus\Projects\vm_ApiGatewaySolution\WebApplication1\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\PersonalData\AhadZubairValidus\Projects\vm_ApiGatewaySolution\WebApplication1\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\PersonalData\AhadZubairValidus\Projects\vm_ApiGatewaySolution\WebApplication1\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

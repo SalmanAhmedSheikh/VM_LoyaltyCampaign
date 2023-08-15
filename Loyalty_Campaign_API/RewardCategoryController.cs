@@ -2,6 +2,11 @@
 using Microsoft.AspNetCore.Mvc;
 using VM_LoyaltyCampaignAPI.Models;
 
+
+using System.Data;
+using System.Data.SqlClient;
+using Microsoft.Extensions.Configuration;
+
 namespace VM_LoyaltyCampaignAPI
 {
 
@@ -10,6 +15,12 @@ namespace VM_LoyaltyCampaignAPI
     public class RewardCategoryController : ControllerBase
     {
 
+        private readonly IConfiguration _configuration;
+
+        public RewardCategoryController(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
 
         [HttpGet]
         [Route("GetRewardCategories")]
@@ -21,14 +32,28 @@ namespace VM_LoyaltyCampaignAPI
 
         private List<RewardCategories> LoadList()
         {
-            List<RewardCategories> objList = new List<RewardCategories>();
-            RewardCategories obj = new RewardCategories();
-            obj.RewardCategoryName = "Gift Reward";
-            objList.Add(obj);
+            SqlConnection con = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
+            SqlCommand cmd = new SqlCommand("UPS_GetAllRewardTypes", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
 
-            obj= new RewardCategories();
-            obj.RewardCategoryName = "Discount Reward";
-            objList.Add(obj);
+            Console.WriteLine(dt.ToString());
+
+            List<RewardCategories> objList = new List<RewardCategories>();
+            if(dt.Rows.Count>0)
+            {
+                for (int i = 0; i <dt.Rows.Count;i++)
+                {
+                    RewardCategories obj = new RewardCategories();
+                    obj.RewardCategoryName =dt.Rows[i]["RewardCategory_Name"].ToString();
+                    objList.Add(obj);
+                }
+
+            }
+
+
 
             return objList;
 
